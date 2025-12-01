@@ -19,9 +19,9 @@
           </NuxtLink>
 
           <NuxtLink
-            to="/team"
+            to="/teamview"
             class="flex items-center gap-3 px-4 py-3 mb-2 rounded-lg transition-all hover:bg-primary-50 dark:hover:bg-dark-border"
-            :class="route.path === '/team' ? 'bg-primary-100 dark:bg-dark-border text-primary-700 dark:text-yellow-400' : 'text-gray-700 dark:text-gray-300'"
+            :class="route.path === '/teamview' ? 'bg-primary-100 dark:bg-dark-border text-primary-700 dark:text-yellow-400' : 'text-gray-700 dark:text-gray-300'"
           >
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
@@ -33,9 +33,9 @@
           </NuxtLink>
 
           <NuxtLink
-            to="/locations"
+            to="/locationsview"
             class="flex items-center gap-3 px-4 py-3 mb-2 rounded-lg transition-all hover:bg-primary-50 dark:hover:bg-dark-border"
-            :class="route.path === '/locations' ? 'bg-primary-100 dark:bg-dark-border text-primary-700 dark:text-yellow-400' : 'text-gray-700 dark:text-gray-300'"
+            :class="route.path === '/locationsview' ? 'bg-primary-100 dark:bg-dark-border text-primary-700 dark:text-yellow-400' : 'text-gray-700 dark:text-gray-300'"
           >
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
@@ -45,9 +45,9 @@
           </NuxtLink>
 
           <NuxtLink
-            to="/abilities"
+            to="/abilitiesview"
             class="flex items-center gap-3 px-4 py-3 mb-2 rounded-lg transition-all hover:bg-primary-50 dark:hover:bg-dark-border"
-            :class="route.path === '/abilities' ? 'bg-primary-100 dark:bg-dark-border text-primary-700 dark:text-yellow-400' : 'text-gray-700 dark:text-gray-300'"
+            :class="route.path === '/abilitiesview' ? 'bg-primary-100 dark:bg-dark-border text-primary-700 dark:text-yellow-400' : 'text-gray-700 dark:text-gray-300'"
           >
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
