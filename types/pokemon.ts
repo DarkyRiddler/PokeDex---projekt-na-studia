@@ -81,3 +81,5 @@ export interface TypeCoverage {
   type: string;
   active: boolean;
 }
+
+
